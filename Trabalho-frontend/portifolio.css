@@ -1,0 +1,96 @@
+/* Estilos globais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  background-image: url('2c1fbccd7697b0ddb11ab18a603fa143.jpg');
+  background-position: center;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Estilo do header e do menu de navegação */
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffa500; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilo da seção de currículo */
+section {
+  margin-top: 100px; /* Ajuste de margem para não cobrir o conteúdo pelo menu */
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Estilo do link do GitHub */
+.github-link {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #f0f0f0;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.github-link:hover {
+  background-color: #ffa500;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}

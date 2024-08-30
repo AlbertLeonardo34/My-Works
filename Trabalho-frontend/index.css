@@ -1,0 +1,65 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  background-color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background: rgba(0, 0, 0, 0.7);
+  background-color: #121212;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffa500;
+}
+
+/* Seção Hero */
+.hero {
+  height: 100vh;
+  background: url('desenvolvedor-back-end-01.jpeg') no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hero-content h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: white;
+}

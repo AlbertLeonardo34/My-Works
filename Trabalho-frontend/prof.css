@@ -1,0 +1,82 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral do body */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #070101f1; /* fundo para as áreas fora da imagem */
+}
+
+/* Estilo para o header */
+header {
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffa500; /* Efeito hover similar ao botão verde na página inicial */
+}
+
+/* Estilo para a seção principal */
+section {
+  background-image: url('Wallpaper-de-resolucao-ultra-HD-programacao-1024x576.webp'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo para o título principal */
+section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra no texto para destacar */
+}
+
+/* Estilo para o parágrafo */
+section p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 800px;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Fundo semi-transparente para maior legibilidade */
+  padding: 20px;
+  border-radius: 10px; /* Bordas arredondadas */
+  text-shadow: 1px 1px 2px; /* Sombra no texto */
+}
